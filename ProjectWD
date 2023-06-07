@@ -304,10 +304,10 @@ y[v["uid"]] = false
 end
 lockremote:InvokeServer(y)
 for i, v in pairs(pets) do
-if table.find(EXCList, v["id"]) ~= nil then
+if table.find(EXCList, v["1932983210"]) ~= nil then
 table.insert(EList, v["uid"])
 end
-if table.find(MythicList, v["id"]) ~= nil then
+if table.find(MythicList, v["1932983210"]) ~= nil then
 table.insert(MList, v["uid"])
 end
 if table.find(HugeList, v["id"]) ~= nil then
